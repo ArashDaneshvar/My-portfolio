@@ -1,8 +1,6 @@
 /* GENERAL */
 
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 
 * {
     margin: 0;
@@ -23,13 +21,15 @@ p {
 
 /* TRANSITION */
 
-a, .btn {
-    transition: all 30ms ease;
+a, 
+.btn {
+    transition: all 300ms ease;
 }
 
 /* DESKTOP NAV */
 
-nav, .nav-links {
+nav, 
+.nav-links {
     display: flex;
 }
 
@@ -46,10 +46,11 @@ nav {
 }
 
 a {
-    color: block;
+    color: black;
     text-decoration: none;
     text-decoration-color: white;
 }
+
 a:hover {
     color: grey;
     text-decoration: underline;
@@ -102,6 +103,7 @@ a:hover {
     overflow: hidden;
     transition: all 0.3 ease-in-out;
 }
+
 .menu-links a {
     display: block;
     padding: 10px;
@@ -233,7 +235,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid ; 
+    border: rgb(53, 53, 53) 0.1rem solid; 
 }
 
 .btn-color-1:hover, 
@@ -243,12 +245,12 @@ section {
 
 .btn-color-1, 
 .btn-color-2:hover {
-    background-color: rgb(53, 53, 53);
+    background: rgb(53, 53, 53);
     color: white;
 }
 
 .btn-color-1:hover {
-    background-color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
 }
 
 .btn-color-2 {
@@ -316,7 +318,7 @@ section {
     margin: auto 0;
 }
 
-/* ECPERICENCE SECTION */
+/* EXPERIENCE SECTION */
 
 #experience {
     position: relative;
@@ -355,10 +357,9 @@ article .icon {
     cursor: default;
 }
 
-
 /* PROJECTS SECTION */
 
-#projcts {
+#projects {
     position: relative;
 }
 
@@ -382,6 +383,3 @@ article .icon {
     color: black;
     border-color: rgb(163, 163, 163);
 }
-
-
-
